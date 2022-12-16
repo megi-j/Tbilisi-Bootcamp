@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="container">
       <Routes>
-        <Route path="/tbilisi-bootcamp" element={<Header />}>
+        <Route path="/" element={<Header />}>
           <Route index element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/courses" element={<Courses />} />
