@@ -113,3 +113,24 @@ footer{
   align-items: center;
  
 }
+.about-us {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-bootcamp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.about-bootcamp h1{
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.about-bootcamp p {
+  font-size: 25px;
+  line-height: 40px;
+} 
