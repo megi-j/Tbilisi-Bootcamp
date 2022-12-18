@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tbilisi-bootcamp/static/css/main.89a21a19.css",
-    "main.js": "/tbilisi-bootcamp/static/js/main.0fe0a57e.js",
+    "main.css": "/tbilisi-bootcamp/static/css/main.59691ac2.css",
+    "main.js": "/tbilisi-bootcamp/static/js/main.70f82e4e.js",
     "static/media/code.jpg": "/tbilisi-bootcamp/static/media/code.49251aeb02301c7c822f.jpg",
     "static/media/logo.jpg": "/tbilisi-bootcamp/static/media/logo.05c437559d0e15bc5af6.jpg",
     "index.html": "/tbilisi-bootcamp/index.html",
-    "main.89a21a19.css.map": "/tbilisi-bootcamp/static/css/main.89a21a19.css.map",
-    "main.0fe0a57e.js.map": "/tbilisi-bootcamp/static/js/main.0fe0a57e.js.map"
+    "main.59691ac2.css.map": "/tbilisi-bootcamp/static/css/main.59691ac2.css.map",
+    "main.70f82e4e.js.map": "/tbilisi-bootcamp/static/js/main.70f82e4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.89a21a19.css",
-    "static/js/main.0fe0a57e.js"
+    "static/css/main.59691ac2.css",
+    "static/js/main.70f82e4e.js"
   ]
 }
