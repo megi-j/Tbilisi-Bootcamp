@@ -135,7 +135,7 @@ footer{
   line-height: 40px;
 } 
 .courses {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding: 30px;
   background-color: #F4ECF1;
@@ -171,9 +171,69 @@ footer{
 .info-box-course button {
   width: 200px;
   height: 50px;
-  background-color: #DAA9CD;
+  background-color: #5E2650;
   border: none;
   cursor: pointer;
   letter-spacing: 2px;
   font-size: 20px;
+  color: #fff;
+}
+.prerekvizits{
+  width: 50%;
+  background-color: #DAA9CD;
+  /* display: flex;
+  justify-content: flex-end; */
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+.prerekvizits div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.prerekvizits div p {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.prerekvizits h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.choose-process{
+  width: 50%;
+  background-color: #DAA9CD;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px;
+  padding-bottom: 81px;
+}
+.choose-process h2{
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.box{
+  width: 200px;
+  height: 100px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed #5E2650;
+}
+.line{
+  width: 120px;
+  height: 2px;
+  background-color: #5E2650;
+}
+.process-box{
+  display: flex;
+  align-items: center;
+  
+}
+.process-box h2{
+  margin-bottom: 20px;
+  font-weight: bold;
 }
