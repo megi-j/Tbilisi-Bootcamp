@@ -1,38 +1,49 @@
 import code from "../images/code.jpg";
-
+import Cards from "./Cards";
+import Slider from "./Slider";
 export default function Home() {
   return (
     <>
       <section className="homePage">
-        <img src={code} alt="code" />;
+        <span
+          style={{
+            color: "red",
+            fontSize: 30,
+            transform: "rotate(20deg)",
+            opacity: 0,
+          }}
+        >
+          div
+        </span>
         <h3>
-          დაიწყე სწავლა ინტენსიური განათლების კურსზე და მიიღე უნიკალური
-          გამოცდილება სულ რამდენიმე თვეში
+          <span style={{ fontSize: 50, color: "#874B78" }}>
+            დაიწყე სწავლა ინტენსიური განათლების კურსზე
+          </span>
+          <p>და მიიღე უნიკალური გამოცდილება სულ რამდენიმე თვეში</p>
         </h3>
+        <span
+          style={{
+            color: "blue",
+            fontSize: 30,
+            transform: "rotate(20deg)",
+            opacity: 0,
+          }}
+        >
+          input
+        </span>
+        <span
+          style={{
+            color: "green",
+            fontSize: 30,
+            transform: "rotate(30deg)",
+            opacity: 0,
+          }}
+        >
+          img
+        </span>
+        <Slider />
       </section>
-      <section className="cards">
-        <div>
-          <h5>ყველასთვის ხელმისაწვდომი</h5>
-          <p>
-            თბილისი ბუთკემპის მიზანი ადამიანების უნარების სწრაფად განვითარების
-            ხელშეწყობაა
-          </p>
-        </div>
-        <div>
-          <h5>სუპერ ინტენსიური</h5>
-          <p>
-            ბუთკემპში სწავლობ კვირაში 5 დღე, თითოეულ ჯგუფში მაქსიმუმ 8
-            სტუდენტია, რაც ნიშნავს რომ ტუტორის ყურადღება არავის მოაკლდება
-          </p>
-        </div>
-        <div>
-          <h5>ნახტომი კარიერაში</h5>
-          <p>
-            კურსის დასრულების შემდეგ, მზად იქნები დასაქმდე სტაჟიორად ან ჯუნიორ
-            დეველოპერად
-          </p>
-        </div>
-      </section>
+      <Cards />
     </>
   );
 }
