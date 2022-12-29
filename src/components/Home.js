@@ -22,7 +22,15 @@ export default function Home() {
             <span className="title-word title-word-4">განათლების</span>{" "}
             <span className="title-word title-word-5">კურსზე</span>
           </span>
-          <p>და მიიღე უნიკალური გამოცდილება სულ რამდენიმე თვეში</p>
+          <h2>
+            <span className="title-letter">და </span>{" "}
+            <span className="title-letter">მიიღე</span>{" "}
+            <span className="title-letter">უნიკალური</span>{" "}
+            <span className="title-letter">გამოცდილება</span>{" "}
+            <span className="title-letter">სულ</span>
+            <span className="title-letter">რამდენიმე</span>{" "}
+            <span className="title-letter">თვეში</span>
+          </h2>
         </h3>
         <span
           style={{

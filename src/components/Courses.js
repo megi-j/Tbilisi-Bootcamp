@@ -42,7 +42,17 @@ export default function Courses() {
           <p>
             ფასი: <span>1800 ლარი</span>{" "}
           </p>
-          <button>რეგისტრაცია</button>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+              width: 450,
+            }}
+          >
+            <button>რეგისტრაცია</button>
+            <button>ჩამოტვირთე სილაბუსი</button>
+          </div>
         </div>
       </section>
       <section className="prerekvizits">
