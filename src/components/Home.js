@@ -16,8 +16,11 @@ export default function Home() {
           div
         </span>
         <h3>
-          <span style={{ fontSize: 50, color: "#874B78" }}>
-            დაიწყე სწავლა ინტენსიური განათლების კურსზე
+          <span className="title-word title-word-1" style={{ fontSize: 50 }}>
+            დაიწყე <span className="title-word title-word-2">სწავლა</span>{" "}
+            <span className="title-word title-word-3">ინტენსიური</span>{" "}
+            <span className="title-word title-word-4">განათლების</span>{" "}
+            <span className="title-word title-word-5">კურსზე</span>
           </span>
           <p>და მიიღე უნიკალური გამოცდილება სულ რამდენიმე თვეში</p>
         </h3>
