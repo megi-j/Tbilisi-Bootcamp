@@ -5,7 +5,9 @@ export default function Courses() {
   return (
     <>
       <section className="courses">
+        <p className="div">div</p>
         <div className="logo-box-course">
+          <p className="div">div</p>
           <svg
             height="300"
             viewBox="175.7 78 490.6 436.9"
@@ -18,6 +20,7 @@ export default function Courses() {
             </g>
           </svg>
         </div>
+        <p className="div">div</p>
         <div className="info-box-course">
           <h2>React Bootcamp</h2>
           <h6>
@@ -51,7 +54,9 @@ export default function Courses() {
             }}
           >
             <button>რეგისტრაცია</button>
-            <button>ჩამოტვირთე სილაბუსი</button>
+            <a href="..//images/syllabus.docx" download>
+              ჩამოტვირთე სილაბუსი
+            </a>
           </div>
         </div>
       </section>

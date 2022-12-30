@@ -214,11 +214,21 @@ footer{
   animation: logo 3s infinite;
 }
 @keyframes logo{
-  0% {fill: red}
-  25% {fill: green}
-  50% {fill: blue}
-  75% {fill: yellow}
-  100% {fill: pink}
+  0% {fill: #5E2650}
+  25% {fill: #874B78}
+  50% {fill: #A8759A}
+  75% {fill: #DAA9CD}
+  100% {fill: #F7DEF1}
+}
+.div{
+  animation: hide 3s infinite;
+}
+@keyframes hide{
+  0% {opacity: 0; transform: rotate(10deg); font-size: 10px;}
+  25%{opacity: 0.25;transform: rotate(15deg); font-size: 15px;}
+  50%{opacity: 0.5;transform: rotate(20deg); font-size: 20px;}
+  75%{opacity: 0.75;transform: rotate(25deg); font-size: 25px;}
+  100%{opacity: 1;transform: rotate(30deg);}
 }
 /* .logo-box-course svg g:hover{
   fill: #000;
@@ -244,8 +254,8 @@ footer{
 .info-box-course span {
   color: red;
 }
-.info-box-course button {
-  width: 200px;
+.info-box-course button{
+  width: 220px;
   height: 70px;
   background-color: #5E2650;
   border: none;
@@ -254,8 +264,22 @@ footer{
   font-size: 20px;
   color: #fff;
   font-weight: bold;
+  
+}
+.info-box-course a{
+  padding: 15px 20px;
+  background-color: #5E2650;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 20px;
+  text-align: center;
 }
 .info-box-course button:hover{
+  background-color: #DAA9CD;
+  color: #000;
+}
+.info-box-course a:hover{
   background-color: #DAA9CD;
   color: #000;
 }
