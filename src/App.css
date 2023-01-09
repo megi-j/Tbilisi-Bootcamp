@@ -43,18 +43,19 @@ nav {
   width: 60%;
   
 }
-ul{
+nav ul{
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  list-style-type: none;
 }
-li{
+nav ul li{
   font-size: 25px;
   transition: all 4s;
   padding-bottom: 5px;
 }
-li:hover {
+nav ul li:hover {
   border-bottom: 3px solid #5E2650;
 }
 .active{
@@ -379,4 +380,45 @@ footer{
   66%   {color: var(--color-3)}
   99%   {color: var(--color-3)}
   100%  {color: var(--color-1)}
+}
+.tutors{
+  width: 100%;
+  
+}
+.megi{
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  border: 3px solid pink;
+}
+.tutorImg{
+  width: 20%;
+  
+  /* height: 400px; */
+  
+}
+.tutorImg img {
+  width: 100%;
+  height: 100%;
+}
+.tutorInfo {
+  /* border: 1px solid black; */
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column; 
+  /* align-items: center;  */
+  justify-content: space-evenly; 
+  /* align-items: flex-start;  */
+}
+.tutorInfo p {
+  font-size: 20px;
+}
+
+.tutorInfo li {
+  margin-bottom: 10px;
+ font-size: 22px;
+}
+.tutorInfo h1{
+  font-size: 40px;
 }

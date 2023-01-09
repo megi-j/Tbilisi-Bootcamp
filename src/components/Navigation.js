@@ -14,6 +14,9 @@ export default function Navigation() {
           <li>
             <NavLink to="/courses">კურსები</NavLink>
           </li>
+          <li>
+            <NavLink to="/tutors">ტუტორები</NavLink>
+          </li>
         </ul>
       </nav>
     </>
