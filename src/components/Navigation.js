@@ -1,24 +1,25 @@
 import { NavLink } from "react-router-dom";
-
-export default function Navigation() {
+import down from "..//images/down.png";
+export default function Navigation(props) {
   return (
-    <>
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/">მთავარი</NavLink>
-          </li>
-          <li>
-            <NavLink to="/aboutus">ბუთკემპის შესახებ</NavLink>
-          </li>
-          <li>
-            <NavLink to="/courses">კურსები</NavLink>
-          </li>
-          <li>
-            <NavLink to="/tutors">ტუტორები</NavLink>
-          </li>
-        </ul>
-      </nav>
-    </>
+    <nav>
+      <ul>
+        <li onClick={props.changeHidden}>
+          <NavLink to="/">მთავარი</NavLink>
+        </li>
+        <li onClick={props.changeHidden}>
+          <NavLink to="/aboutus">ბუთკემპის შესახებ</NavLink>
+        </li>
+        <li onClick={props.handleClick}>
+          {/* <NavLink to="/courses"> */}
+          კურსები
+          <img src={down} alt="down-arrow" />
+          {/* </NavLink> */}
+        </li>
+        <li onClick={props.changeHidden}>
+          <NavLink to="/tutors">ტუტორები</NavLink>
+        </li>
+      </ul>
+    </nav>
   );
 }
