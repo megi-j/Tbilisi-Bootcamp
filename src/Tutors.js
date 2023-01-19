@@ -1,14 +1,18 @@
 import React from "react";
 import Tutor from "./Tutor";
 import megi from "./images/megi.jpeg";
+import luka from "./images/luka.jpeg";
 export default function Tutors() {
   return (
     <section className="tutors">
-      <div className="megi">
+      <div className="luka">
         <Tutor
-          megiImg="https://img.freepik.com/premium-vector/cartoon-rabbit-holding-carrot_29190-5532.jpg?w=2000"
+          megiImg={luka}
           name="ლუკა ქორიძე"
           profession="Fullstack web developer"
+          tech={<li>Node.js</li>}
+          tech1={<li>Express</li>}
+          tech2={<li>MongoDB</li>}
         />
       </div>
       <div className="megi">

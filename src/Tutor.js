@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Tutor(props) {
   return (
     <>
@@ -14,10 +12,15 @@ export default function Tutor(props) {
         <ul>
           <li>HTML</li>
           <li>CSS/SCSS</li>
-          <li>Bootstrap</li>
-          <li>Javascript/typescript</li>
+          <li>Bootstrap/Tailwind</li>
+          <li>Javascript</li>
+          <li>typescript</li>
           <li>React.JS</li>
           <li>Rest API</li>
+          <li>Git/Github</li>
+          {props.tech}
+          {props.tech1}
+          {props.tech2}
         </ul>
       </div>
     </>

@@ -16,20 +16,26 @@ export default function Header(props) {
       </header>
       <section
         className="hidden"
-        style={{ display: props.isclickedCoursesBox ? "block" : "none" }}
+        style={{ display: props.isclickedCoursesBox ? "flex" : "none" }}
       >
-        <NavLink to="/courses" onClick={props.changeHidden}>
-          <div className="course">
-            <img className="course-pic" src={one} alt="" />
-            <h2>Front end web development</h2>
-            <img className="arrow-pic" src={arrow} alt="" />
-          </div>
+        <p style={{ width: "20%", fontSize: 30, lineHeight: 2 }}>
+          შეცვალეთ თქვენი ცხოვრება ფრონტენდ ვებ დეველოპმენტის ან ბექენდ
+          დეველოპმენტის კურსთან ერთად
+        </p>
+        <div style={{ width: "30%" }}>
+          <NavLink to="/courses" onClick={props.changeHidden}>
+            <div className="course">
+              <img className="course-pic" src={one} alt="" />
+              <h2>Front end web development</h2>
+              <img className="arrow-pic" src={arrow} alt="" />
+            </div>
+          </NavLink>
           <div className="course">
             <img className="course-pic" src={two} alt="" />
-            <h2>Front end web development</h2>
+            <h2>Back end development</h2>
             <img className="arrow-pic" src={arrow} alt="" />
           </div>
-        </NavLink>
+        </div>
       </section>
       <Outlet />
     </>

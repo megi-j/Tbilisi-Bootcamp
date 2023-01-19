@@ -73,15 +73,16 @@ nav ul li:hover {
   position: absolute;
   width: 100%;
   height: 35%;
-  background-color:#F4ECF1;
+  background-color: rgba(244,236,241);
   top: 150px;
   left: 0;
   z-index: 10;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-
+  justify-content: space-evenly;
+  align-items: center;
 }
 .course {
-  width: 30%;
+  width: 100%;
   height: 150px;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
   background-color: #fff;
@@ -425,13 +426,14 @@ footer{
   width: 100%;
   
 }
-.megi{
+.megi, .luka{
   width:100%;
-  margin: 0 auto;
+  margin: 20px auto;
   display: flex;
   justify-content: space-around;
-  border: 3px solid pink;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
+
 .tutorImg{
   width: 20%;
   
