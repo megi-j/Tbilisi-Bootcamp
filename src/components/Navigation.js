@@ -17,6 +17,9 @@ export default function Navigation(props) {
           {/* </NavLink> */}
         </li>
         <li onClick={props.changeHidden}>
+          <NavLink to="/graduates">კუსრდამთავრებულები</NavLink>
+        </li>
+        <li onClick={props.changeHidden}>
           <NavLink to="/tutors">ტუტორები</NavLink>
         </li>
       </ul>

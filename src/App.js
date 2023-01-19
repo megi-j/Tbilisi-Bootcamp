@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Tutors from "./Tutors";
 import CoursesBox from "./components/CoursesBox";
 import { useState } from "react";
+import Graduates from "./components/Graduates";
 
 function App() {
   const [isclickedCoursesBox, setIsClickedCoursesBox] = useState(false);
@@ -36,6 +37,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/tutors" element={<Tutors />} />
+          <Route path="/graduates" element={<Graduates />} />
         </Route>
       </Routes>
 
