@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/tbilisi-bootcamp/static/css/main.77f20cb0.css",
-    "main.js": "/tbilisi-bootcamp/static/js/main.3d92414f.js",
+    "main.css": "/tbilisi-bootcamp/static/css/main.18f1351c.css",
+    "main.js": "/tbilisi-bootcamp/static/js/main.48f7557b.js",
     "static/media/two.jpg": "/tbilisi-bootcamp/static/media/two.9434db740ff1a8dc0a2e.jpg",
     "static/media/one.jpg": "/tbilisi-bootcamp/static/media/one.ad32ba576b77113d46eb.jpg",
     "static/media/three.jpg": "/tbilisi-bootcamp/static/media/three.685ea470b686b87f6b90.jpg",
     "static/media/code.jpg": "/tbilisi-bootcamp/static/media/code.49251aeb02301c7c822f.jpg",
+    "static/media/megi.jpeg": "/tbilisi-bootcamp/static/media/megi.9cc16922c4a424ce60c6.jpeg",
     "static/media/logo.jpg": "/tbilisi-bootcamp/static/media/logo.05c437559d0e15bc5af6.jpg",
+    "static/media/luka.jpeg": "/tbilisi-bootcamp/static/media/luka.65600c422d59104cf218.jpeg",
     "static/media/four.jpg": "/tbilisi-bootcamp/static/media/four.5ebaa0c39364d7fb944f.jpg",
     "static/media/five.jpg": "/tbilisi-bootcamp/static/media/five.8ad1ab0f6b48b2f3ab05.jpg",
     "index.html": "/tbilisi-bootcamp/index.html",
-    "main.77f20cb0.css.map": "/tbilisi-bootcamp/static/css/main.77f20cb0.css.map",
-    "main.3d92414f.js.map": "/tbilisi-bootcamp/static/js/main.3d92414f.js.map"
+    "main.18f1351c.css.map": "/tbilisi-bootcamp/static/css/main.18f1351c.css.map",
+    "main.48f7557b.js.map": "/tbilisi-bootcamp/static/js/main.48f7557b.js.map"
   },
   "entrypoints": [
-    "static/css/main.77f20cb0.css",
-    "static/js/main.3d92414f.js"
+    "static/css/main.18f1351c.css",
+    "static/js/main.48f7557b.js"
   ]
 }
