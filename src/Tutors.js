@@ -5,6 +5,13 @@ import luka from "./images/luka.jpeg";
 export default function Tutors() {
   return (
     <section className="tutors">
+      <div className="megi">
+        <Tutor
+          megiImg={megi}
+          name="მეგი ჯაბანაშვილი"
+          profession="Frontend web developer"
+        />
+      </div>
       <div className="luka">
         <Tutor
           megiImg={luka}
@@ -13,13 +20,6 @@ export default function Tutors() {
           tech={<li>Node.js</li>}
           tech1={<li>Express</li>}
           tech2={<li>MongoDB</li>}
-        />
-      </div>
-      <div className="megi">
-        <Tutor
-          megiImg={megi}
-          name="მეგი ჯაბანაშვილი"
-          profession="Frontend web developer"
         />
       </div>
     </section>

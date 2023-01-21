@@ -2,12 +2,12 @@
 html{
   font-family: "BPG Nino Mtavruli Bold", sans-serif;
 }
-.container{
+/* .container{
   max-width: 1920px;
   width: 100%;
   margin: 0 auto;
-}
-header{
+} */
+/* header{
   width: 100%;
   height: 150px;
   margin: 0 auto;
@@ -15,14 +15,14 @@ header{
   justify-content: space-between;
   align-items: center;
   
-}
+} */
 .logo-box{
   width: 250px;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  cursor: pointer;
 }
 .logo-box img{
   width: 60px;

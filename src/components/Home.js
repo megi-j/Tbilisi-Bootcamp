@@ -2,7 +2,7 @@ import code from "../images/code.jpg";
 import Cards from "./Cards";
 import Slider from "./Slider";
 
-export default function Home(props) {
+export default function Home() {
   return (
     <>
       <section className="homePage">

@@ -8,7 +8,7 @@ export default function Student(props) {
         border: "2px solid red",
         display: "flex",
         justifyContent: "space-between",
-        alignItems: "flex-end",
+        alignItems: "flex-start",
       }}
     >
       <div
@@ -31,19 +31,22 @@ export default function Student(props) {
         />
       </div>
 
-      <div style={{ width: "70%" }}>
+      <div style={{ width: "70%", marginTop: 150 }}>
         <h4 style={{ color: "green", fontSize: 30 }}>{props.name}</h4>
-        <h6 style={{ marginBottom: 10, marginTop: 10, fontSize: 20 }}>
+        <h6 style={{ marginBottom: 10, marginTop: 10, fontSize: 25 }}>
           {props.age} წლის React დეველოპერი
         </h6>
-        <p style={{ lineHeight: 1.2, fontSize: 15 }}>
+        <p style={{ lineHeight: 1.2, fontSize: 20 }}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
           non blanditiis itaque voluptatibus quas pariatur amet libero natus?
           Doloribus fuga at praesentium culpa quisquam esse officia sunt, facere
           a eos. Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Suscipit perspiciatis perferendis, tenetur magni soluta cumque
           consequuntur aspernatur neque inventore itaque officia nulla deleniti
-          eius eaque consequatur aliquam labore libero reiciendis!
+          eius eaque consequatur aliquam labore libero reiciendis! Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Nostrum, totam? Culpa
+          magnam doloribus distinctio ipsam tenetur repellendus soluta pariatur
+          autem sint. Minus illo nam dignissimos dicta ex veritatis tempora sit.
         </p>
       </div>
     </div>

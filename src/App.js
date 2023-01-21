@@ -10,7 +10,7 @@ import Tutors from "./Tutors";
 import CoursesBox from "./components/CoursesBox";
 import { useState } from "react";
 import Graduates from "./components/Graduates";
-
+import styled from "styled-components";
 function App() {
   const [isclickedCoursesBox, setIsClickedCoursesBox] = useState(false);
 
@@ -21,7 +21,7 @@ function App() {
     setIsClickedCoursesBox(false);
   }
   return (
-    <div className="container">
+    <Container>
       <Routes>
         <Route
           path="/"
@@ -42,8 +42,13 @@ function App() {
       </Routes>
 
       <Footer />
-    </div>
+    </Container>
   );
 }
 
 export default App;
+const Container = styled.div`
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+`;

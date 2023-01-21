@@ -4,16 +4,17 @@ import { NavLink, Outlet } from "react-router-dom";
 import one from "..//images/one.jpg";
 import two from "..//images/two.jpg";
 import arrow from "..//images/arrow-right.png";
+import styled from "styled-components";
 export default function Header(props) {
   return (
     <>
-      <header>
+      <HeaderStyle>
         <Logo />
         <Navigation
           handleClick={props.handleClick}
           changeHidden={props.changeHidden}
         />
-      </header>
+      </HeaderStyle>
       <section
         className="hidden"
         style={{ display: props.isclickedCoursesBox ? "flex" : "none" }}
@@ -41,3 +42,11 @@ export default function Header(props) {
     </>
   );
 }
+const HeaderStyle = styled.header`
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
